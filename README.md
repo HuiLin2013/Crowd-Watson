@@ -17,7 +17,10 @@ It is the processing component of Crowd-Watson Architecture:
 ### GUI Flow
 
 ##### Pre-process
-Raw Files -> Processing Files -> Filtered Files -> Batches Files
+Raw Files 
+-> Processing Files 
+-> Filtered Files 
+-> Batches Files
 (All the files are generated at the server and registered in the database)
 
 ##### Create a job
@@ -42,7 +45,10 @@ Job completion message would be sent from the platform to GUI when the job is fi
 -> Results File can be downloaded through History Table
 
 ##### Post-process
-Filtered Results (Sentences) -> Filtered Results (Workers) -> Curated Results (After Spam Detection) -> Analyses Files
+Filtered Results (Sentences) 
+-> Filtered Results (Workers) 
+-> Curated Results (After Spam Detection) 
+-> Analyses Files
 (All the files are generated at the server and registered in the database;  Results parameters by the analytic analyses would be shown in History Table)
 
 ##### View the analytics results
