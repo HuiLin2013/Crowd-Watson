@@ -16,11 +16,11 @@ It is the processing component of Crowd-Watson Architecture:
 
 ### GUI Flow
 
-1. Pre-process
+#### Pre-process
 Raw Files -> Processing Files -> Filtered Files -> Batches Files
 (All the files are generated at the server and registered in the database)
 
-2. Create a job
+#### Create a job
 A Batches File are selected from the server 
 -> Fill in certain parameters such as judgments, payments, time and etc.
 -> Send the selected Batches File to CrowdFlower or other platforms 
