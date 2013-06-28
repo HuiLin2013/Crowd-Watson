@@ -14,6 +14,6 @@ It is the processing component of Crowd-Watson Architecture:
 - plugins: contains plugins used to build up the GUI.
 
 
-## GUI Flow
+### GUI Flow
 
 
