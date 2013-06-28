@@ -10,3 +10,10 @@ It is the processing component of Crowd-Watson Architecture:
 - js folder: contains jQuery or javaScripts to interact with multiple modules and to enable data retrieval, storage and integration.
 - css folder: custome GUI layout.
 - statuschange folder: enable to synchronize changes of the job statuses in History Table with Crowdflower account.
+- img folder: contains images for the slideshow in Home tab and other GUI images.
+- plugins: contains plugins used to build up the GUI.
+
+
+## GUI Flow
+
+
