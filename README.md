@@ -7,5 +7,6 @@ It is the processing component of Crowd-Watson Architecture:
 
 
 - index.php: gather interfaces towards preprocessing (Input tab), creating a job (Jobs tab), checking history data and refer to analtics data (History tab); Home and About tabs contain the descriptions of the Crowd-Watson project and project memebers. 
-- Crowdflower: automation of Crowdflower tasks. 
-- dataproc: to do data (pre)process and analysis. 
+- js folder: contains jQuery or javaScripts to interact with multiple modules and to enable data retrieval, storage and integration.
+- css folder: custome GUI layout.
+- statuschange folder: enable to synchronize changes of the job statuses in History Table with Crowdflower account.
