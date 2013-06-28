@@ -16,4 +16,38 @@ It is the processing component of Crowd-Watson Architecture:
 
 ### GUI Flow
 
+1. Pre-process
+Raw Files -> Processing Files -> Filtered Files -> Batches Files
+(All the files are generated at the server and registered in the database)
+
+2. Create a job
+A Batches File are selected from the server 
+-> Fill in certain parameters such as judgments, payments, time and etc.
+-> Send the selected Batches File to CrowdFlower or other platforms 
+-> The filled-in parameters and creating information would be saved in database and shown in History Table
+
+3. History Table
+Acts like a control centre:
+- Connects input for creating jobs with output retrieved from finished jobs 
+- Indicates integrated data
+- Indicates job completion
+- Manages job statuses
+- Enables files download
+- Enables to block spammers
+
+4. Retrieve the Results
+Job completion message would be sent from the platform to GUI when the job is finished
+-> The Results File would be saved in the server and registered in the database
+-> Results parameters offered by the platform would be shown in History Table
+-> Results File can be downloaded through History Table
+
+5. Post-process
+Filtered Results (Sentences) -> Filtered Results (Workers) -> Curated Results (After Spam Detection) -> Analyses Files
+(All the files are generated at the server and registered in the database;  Results parameters by the analytic analyses would be shown in History Table)
+
+6. View the analytics results
+Select a Job ID or multiple Job IDs  with Finished status from History Table and click on Analyze button
+-> Results Page will pop up, which contains Sentence Metrics, Worker Metrics, Spammers detected and etc.
+
+
 
