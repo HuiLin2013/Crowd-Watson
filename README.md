@@ -57,13 +57,17 @@ Select a Job ID or multiple Job IDs  with Finished status from History Table and
 
 ##### Crowd-Watson Framework
 
-
+http://crowd-watson.nl/wcs/GUI/img/Crowd-Watson%20Framework.jpg
 
 
 ##### Crowd-Watson Architecture
 
+http://crowd-watson.nl/wcs/GUI/img/Crowd-Watson%20Architecture.jpg
 
-##### Crowd-Watson GUI js
+
+##### Crowd-Watson GUI js descriptions
+
+http://crowd-watson.nl/wcs/GUI/js/huimain.js
 
 
 
