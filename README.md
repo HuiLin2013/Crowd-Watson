@@ -16,7 +16,7 @@ It is the processing component of Crowd-Watson Architecture:
 
 ### GUI Flow
 
-#### Pre-process
+##### Pre-process
 Raw Files -> Processing Files -> Filtered Files -> Batches Files
 (All the files are generated at the server and registered in the database)
 
